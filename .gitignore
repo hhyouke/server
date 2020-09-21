@@ -1,0 +1,29 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.fseventsd
+
+#config files
+local.yaml
+dev.yaml
+
+#logs
+/logs
+
+#vscode
+/.vscode
+
+# Misc
+# /supported-files
+*.attr
+*.exe
+*.log
+*.old
+*.swp
+*.test
+.vagrant/
+/pkg
+bin/
+changelog.tmp
+Thumbs.db

@@ -1,0 +1,16 @@
+api:
+  host: localhost
+  port: xxxx
+  machine_id: 1
+
+logging:
+  level: debug
+
+db:
+  # driver: mysql
+  dialect: mysql
+  url: user:@pwd@tcp(url:port)/schema?charset=utf8mb4&parseTime=True&loc=Local
+  auto_migrate: true
+  max_open_conn: 50
+  max_idle_conn: 10
+  log_mode: true
